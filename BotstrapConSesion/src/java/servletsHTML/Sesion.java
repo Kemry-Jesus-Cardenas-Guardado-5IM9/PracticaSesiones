@@ -14,7 +14,7 @@ public class Sesion extends HttpServlet {
         sesion.setAttribute("Correo", Correoelec);
         sesion.setAttribute("Contraseña", Contraseña);
         response.setContentType("text/html");
-      response.sendRedirect("http://localhost:8080/Login/Validacion");
+      response.sendRedirect("http://localhost:8080/BotstrapConSesion/Validacion");
   
     }
    
